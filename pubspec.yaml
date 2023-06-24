@@ -1,0 +1,62 @@
+name: flutter_gmaps
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_polyline_points: ^1.0.0
+  google_maps_flutter: ^2.2.7
+  mqtt_client: ^10.0.0
+  geolocator: ^9.0.2
+  google_nav_bar: ^5.0.6
+  geocoding: ^2.1.0
+  syncfusion_flutter_sliders: ^21.2.6
+  syncfusion_flutter_charts: ^21.2.6
+  syncfusion_flutter_datepicker: ^21.2.6
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/car.png
+    - assets/daytime.png
+    - assets/plates.png
+    - assets/speed.png
+    - assets/CarIcon.png
+    - assets/poisition.png
+    - assets/theme_01.mp3
+    - assets/phone.png
+    - assets/expired.png
+    - assets/longitude.png
+    - assets/latitude.png
+    - assets/address.png
+    - assets/activated.png
+    - assets/taxi.png
+    - assets/km.png
+    - assets/driver.png
+    - assets/truck.png
+    - assets/StartPoint.png
+    - assets/ParkingPoint.png
+    - assets/FinishPoint.png
+    - assets/Parking.png
+    - assets/Running.png
+    - assets/calendar.png
+    - assets/login.png
+    - assets/statusCar.png
+    - assets/PlayButton.png
+    - assets/PauseButton.png
+    - assets/CX5.png
+
